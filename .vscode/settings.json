@@ -14,6 +14,12 @@
     "queue": "cpp",
     "string_view": "cpp",
     "unordered_map": "cpp",
-    "__tree": "cpp"
+    "__tree": "cpp",
+    "locale": "cpp",
+    "chrono": "cpp",
+    "limits": "cpp",
+    "algorithm": "cpp",
+    "ios": "cpp",
+    "ratio": "cpp"
   }
 }
