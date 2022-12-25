@@ -28,3 +28,8 @@ call(["g++", "-std=c++11", path.join(test_case, SCRIPT_NAME)])
 print("Run application")
 p = run(["./a.out"], input=input, capture_output=True, text=True)
 print(p.stdout)
+
+if p.stdout.strip() == expected_output.strip():
+    print("Test passed!")
+else:
+    print("Test failed!")
